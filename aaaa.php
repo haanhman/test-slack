@@ -1,1 +1,3 @@
-sdgsd gsd
+<?php
+echo 'heelo';
+phpinfo();
