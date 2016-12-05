@@ -60,19 +60,19 @@
 #     # password: 'please use keys'
 #   }
 
-set :deploy_to, '/home/ubuntu/capistrano/prod'
-set :branch, 'master'
-server '54.255.133.66',
-  user: 'ubuntu',
-  roles: %w{web app},
-  ssh_options: {
-    user: 'ubuntu', # overrides user setting above
-    keys: %w(time_management_system.pem),
-    forward_agent: false
-  }
+# set :deploy_to, '/home/ubuntu/capistrano/prod'
+# set :branch, 'master'
+# server '54.255.133.66',
+#   user: 'ubuntu',
+#   roles: %w{web app},
+#   ssh_options: {
+#     user: 'ubuntu', # overrides user setting above
+#     keys: %w(time_management_system.pem),
+#     forward_agent: false
+#   }
 
 
-server '35.162.2.237',
+server '35.163.165.15',
   user: 'ubuntu',
   roles: %w{web app},
   ssh_options: {
