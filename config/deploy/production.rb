@@ -60,8 +60,8 @@
 #     # password: 'please use keys'
 #   }
 
-# set :deploy_to, '/home/ubuntu/capistrano/prod'
-# set :branch, 'master'
+set :deploy_to, '/home/ubuntu/capistrano/prod'
+set :branch, 'master'
 # server '54.255.133.66',
 #   user: 'ubuntu',
 #   roles: %w{web app},
